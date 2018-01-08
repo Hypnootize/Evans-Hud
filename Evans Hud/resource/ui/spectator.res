@@ -60,15 +60,15 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-300"	[$WIN32]
-		"xpos_minmode"	"c-300"
+		"xpos_nope"	"c-300"
 		"xpos"			"c-200"	[$X360]
 		"ypos"			"50"	[$WIN32]
-		"ypos_minmode"	"3"		[$WIN32]
+		"ypos_nope"	"3"		[$WIN32]
 		"ypos"			"67"	[$X360]
 		"ypos_hidef"	"79"
 		"ypos_lodef"	"85"
 		"wide"			"600"	[$WIN32]
-		"wide_minmode"	"300"
+		"wide_nope"	"300"
 		"wide"			"400"	[$X360]
 		"tall"			"18"
 		"tall_hidef"		"23"
@@ -150,7 +150,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
+		"visible_nope"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ChangeTeam"
@@ -172,7 +172,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
+		"visible_nope"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_SwitchCamMode"
@@ -213,7 +213,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
+		"visible_nope"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_CycleTargetFwd"
@@ -234,7 +234,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
+		"visible_nope"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
@@ -255,7 +255,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
+		"visible_nope"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_CycleTargetRev"
@@ -281,7 +281,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"visible_minmode"		"0"
+		"visible_nope"		"0"
 		"enabled"		"0"
 		"labelText"		"%tip%"
 		"textAlignment"		"center"	[$WIN32]

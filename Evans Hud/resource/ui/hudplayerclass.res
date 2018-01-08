@@ -7,7 +7,7 @@
 		"fieldName"		"HudPlayerClass"
 		"xpos"			"0"
 		"ypos"			"0"
-		"ypos_minmode"	"18"
+		"ypos_nope"	"18"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
@@ -19,16 +19,16 @@
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"30"	[$WIN32]
-		"xpos_minmode"	"15"	[$WIN32]
+		"xpos_nope"	"15"	[$WIN32]
 		"ypos"			"r80"	[$WIN32]
-		"ypos_minmode"	"r54"	[$WIN32]
+		"ypos_nope"	"r54"	[$WIN32]
 		"xpos"			"57"	[$X360]
 		"ypos"			"r110"	[$X360]
 		"zpos"			"2"
 		"wide"			"50"
-		"wide_minmode"	"37"
+		"wide_nope"	"37"
 		"tall"			"50"
-		"tall_minmode"	"37"
+		"tall_nope"	"37"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
@@ -42,9 +42,9 @@
 		"ypos"			"r67"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"55"
-		"wide_minmode"	"27"
+		"wide_nope"	"27"
 		"tall"			"55"
-		"tall_minmode"	"27"
+		"tall_nope"	"27"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/class_spyred"
@@ -57,16 +57,16 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyOutlineImage"
 		"xpos"			"99999"		[$WIN32]
-		"xpos_minmode"	"-5"	[$WIN32]
+		"xpos_nope"	"-5"	[$WIN32]
 		"ypos"			"r67"	[$WIN32]
-		"ypos_minmode"	"r44"	[$WIN32]
+		"ypos_nope"	"r44"	[$WIN32]
 		"xpos"			"35"	[$X360]
 		"ypos"			"r89"	[$X360]
 		"zpos"			"7"
 		"wide"			"55"
-		"wide_minmode"	"27"
+		"wide_nope"	"27"
 		"tall"			"55"
-		"tall_minmode"	"27"
+		"tall_nope"	"27"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_spy_outline"
@@ -77,9 +77,9 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
 		"xpos"			"9999"		[$WIN32]
-		"xpos_minmode"	"-10"		[$WIN32]
+		"xpos_nope"	"-10"		[$WIN32]
 		"ypos"			"r60"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
+		"ypos_nope"		"r40"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
@@ -100,9 +100,9 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
 		"xpos"			"9999"		[$WIN32] //-1
-		"xpos_minmode"	"-15"		[$WIN32]
+		"xpos_nope"	"-15"		[$WIN32]
 		"ypos"			"r60"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
+		"ypos_nope"		"r40"	[$WIN32]
 		"zpos"			"1"		
 		"wide"			"109"
 		"tall"			"50"

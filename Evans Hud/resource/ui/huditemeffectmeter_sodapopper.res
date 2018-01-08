@@ -7,8 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"c-40"	[$WIN32]
 		"ypos"			"c90"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r83"	[$WIN32]
+		"xpos_nope"	"r52"	[$WIN32]
+		"ypos_nope"	"r83"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r124"	[$X360]
 		"wide"			"100"
@@ -27,7 +27,7 @@
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"0"
-		"visible_minmode"	"0"
+		"visible_nope"	"0"
 		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_horiz3_blue"
 		"scaleImage"	"1"	

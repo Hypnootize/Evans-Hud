@@ -17,9 +17,9 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c18"	[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
+		"xpos_minmode"	"c18"	[$WIN32]
 		"ypos"	"c-20"	[$WIN32]
-		"ypos_minmode"	"r36"	[$WIN32]
+		"ypos_minmode"	"c-20"	[$WIN32]
 		"wide"	"250"
 		"tall"	"120"
 	}
@@ -46,9 +46,9 @@
 		"tall"	"160"
 		
 		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
+		"blue_active_xpos_minmode"	"16"
 		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
+		"red_active_xpos_minmode"	"106"
 	}	
 
 	HudItemEffectMeter
@@ -57,9 +57,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
+		"xpos_minmode"	"r162"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r50"	[$WIN32]
+		"ypos_minmode"	"r52"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"100"
@@ -90,7 +90,7 @@
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"100"
-		"wide_minmode"	"50"
+		"wide_minmode"	"100"
 		"tall"			"15"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -102,9 +102,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
+		"xpos_minmode"	"r80"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
+		"ypos_minmode"	"r21"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
@@ -121,9 +121,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
+		"xpos_minmode"	"r80"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
+		"ypos_minmode"	"r21"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
@@ -203,9 +203,9 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"76"
-		"xpos_minmode"			"61"
+		"xpos_minmode"			"76"
 		"ypos"					"r152"
-		"ypos_minmode"			"r134"
+		"ypos_minmode"			"r152"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -248,7 +248,7 @@
 		"ypos"		"c30"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall_minmode"	 	"35"
 		"priority"	"40"
 		"priority_lodef"	"5"
 
@@ -268,7 +268,7 @@
 		"ypos"		"350"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall_minmode"	 	"35"
 		"priority"	"40"
 		"priority_lodef" "35"
 		
@@ -285,7 +285,7 @@
 		"ypos"		"c140"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall_minmode"	 	"35"
 		"priority"	"35"
 
 		if_vr
