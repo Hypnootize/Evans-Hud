@@ -13,9 +13,7 @@
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
 		"xpos"				"0"
-		"xpos_nope"		"20"
 		"ypos"				"0"
-		"ypos_nope"		"-14"
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"150"
@@ -31,12 +29,13 @@
 		
 		if_match
 		{
-			"xpos"				"30"
+			"xpos"				"28"
+			"ypos"				"6"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"ClearBold20"
 			"fgcolor"		"255 255 255 255"
@@ -47,13 +46,12 @@
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
 				"font"			"ClearBold12"
-				"ypos"			"0"
 			}
 		}
 	}
@@ -63,9 +61,7 @@
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
 		"xpos"				"110"
-		"xpos_nope"		"70"
 		"ypos"				"0"
-		"ypos_nope"		"-14"
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"150"
@@ -81,37 +77,29 @@
 		
 		if_match
 		{
-			"xpos"				"80"
+			"xpos"				"84"
+			"ypos"				"6"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"ClearBold20"
 			"fgcolor"		"255 255 255 255"
 			"xpos"			"10"
-			"xpos_nope"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
 			"ypos"			"-5"
-			"ypos_nope"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
 			"zpos"			"3"
 			"wide"			"51"
-			"wide_nope"	"30"
-			"wide_lodef"	"50"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
 				"font"			"ClearBold12"
-				"ypos"			"0"
 			}
 		}	
 	}
