@@ -395,7 +395,7 @@
 						"fieldName"		"ProgressBar"
 						"xpos"			"0"
 						"ypos"			"cs-0.5"
-						"wide"			"f0"
+						"wide"			"0"
 						"tall"			"f-2"
 						"zpos"			"1"
 						"proportionaltoparent"	"1"
@@ -403,6 +403,11 @@
 
 						"fgcolor_override"	"20 20 20 180"
 						"bgcolor_override"	"0 0 0 0"
+
+						if_mini
+						{
+							"wide" "f0"
+						}
 					}
 
 					"ContinuousProgressBar"
@@ -417,6 +422,7 @@
 						"progress"		"0"
 
 						"fgcolor_override"	"CreditsGreen"
+						"Bgcolor_override"	"0 0 0 150"
 					}
 
 					"Frame"
@@ -425,11 +431,16 @@
 						"fieldName"		"Frame"
 						"xpos"			"0"
 						"ypos"			"0"
-						"wide"			"f0"
+						"wide"			"0"
 						"tall"			"f0"
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
 						"border"		"InnerShadowBorderThin"
+
+						if_mini
+						{
+							"wide" "f0"
+						}
 					}
 				}
 			}
